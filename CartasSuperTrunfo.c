@@ -1,17 +1,21 @@
 #include <stdio.h>
 
-int main() {
-    printf("Desafio Super Trunfo - Países")
-
+int main() {    
+    char estado [10];
     int população;
     float area;
     float bip;
     int pontoturistico;
-    char estado [30]
+
+    printf("Desafio Super Trunfo - Países");
+   
+   
 
     printf ("Digite a sigla do estado");
     scanf ("%s", &estado);
 
+    printf ("Digite a sigla do estado");
+    scanf ("%d", &população);
 
 
 
