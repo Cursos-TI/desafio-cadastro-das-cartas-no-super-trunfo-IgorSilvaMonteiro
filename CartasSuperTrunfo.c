@@ -1,37 +1,64 @@
 #include <stdio.h>
 
-int main() {    
-    char estado [10];
-    int população;
-    float area;
-    float bip;
-    int pontoturistico;
+int main() {   
+
+    char estado1[10], estado2[10];
+    int população1, população2;
+    float area1, area2;
+    float bip1, bip2;
+    int ponto_turistico1, ponto_turistico2;
 
     printf("Desafio Super Trunfo - Países");
-   
-   
 
-    printf ("Digite a sigla do estado");
-    scanf ("%s", &estado);
+    // carta 1 - entrada
+    printf ("Digite a sigla do estado:");
+    scanf ("%s", &estado1);
 
-    printf ("Digite a sigla do estado");
-    scanf ("%d", &população);
+    printf ("população do estado:");
+    scanf ("%d", &população1);
 
+    printf ("area do estado:");
+    scanf ("%f", &area1);
 
+    printf ("bip do estado:");
+    scanf ("%f", &bip1);
 
+    printf ("quantida de pontos turisticos do estado:");
+    scanf ("%d", &ponto_turistico1);
 
+    // carta 2 - entrada
+    printf ("Digite a sigla do estado:");
+    scanf ("%s", &estado2);
 
+    printf ("população do estado:");
+    scanf ("%d", &população2);
 
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf ("area do estado:");
+    scanf ("%f", &area2);
 
-    
+    printf ("bip do estado:");
+    scanf ("%f", &bip2);
+
+    printf ("quantida de pontos turisticos do estado:");
+    scanf ("%d", &ponto_turistico2);
+
+    //carta 1 - saida
+    printf ("Carta1\n");
+    printf ("Estado: %s\n", estado1);
+    printf ("população: %d\n", população1);
+    printf ("area: %f\n", area1);
+    printf ("bip: %f\n", bip1);
+    printf ("ponto turistico: %s\n", ponto_turistico1);
+
+     //carta 2 - saida
+     printf ("Carta2\n");
+     printf ("Estado: %s\n", estado2);
+     printf ("população: %d\n", população2);
+     printf ("area: %f\n", area2);
+     printf ("bip: %f\n", bip2);
+     printf ("ponto turistico: %s\n", ponto_turistico2);
+
+     return 0;
+     
+
 }
