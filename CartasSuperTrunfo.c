@@ -77,6 +77,16 @@ int main() {
     per_capita2 = (float) (bip2 / populacao2);
     printf ("A PIB per capita é: %.2d\n", per_capita);
 
+    //imprimir informações quem ganhou
+    printf ("População carta 1 - %d - é maior que a carta 2 - %d - ?", populacao1, populacao2);
+    printf (" %d ", populacao1 > populacao2);
+
+    printf ("Bip carta 1 - %.2f - é maior que a carta 2 - %.2f - ?", bip1, bip2);
+    printf (" %.1f ", bip1 > bip2);
+
+    printf ("Estado carta 1 - %s - é maior que a carta 2 - %s - ?", estado1, estado2);
+    printf (" %s ", estado1 > estado2);
+
      return 0;
      
 
